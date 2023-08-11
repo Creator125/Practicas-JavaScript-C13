@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" modified="2023-08-10T02:23:21.674Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="VKKeR_MMsWPOjkCLM8IH" version="21.6.6" type="device" pages="3">
+  <diagram name="Ejercicio 1" id="ZlG9y17NhiIoeMgtBdZg">
+    <mxGraphModel dx="880" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-6-N7aLPI0MseVIE6LQe-1" value="Suma de dos numeros" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-6-N7aLPI0MseVIE6LQe-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-6-N7aLPI0MseVIE6LQe-2" target="-6-N7aLPI0MseVIE6LQe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-6-N7aLPI0MseVIE6LQe-2" value="Obtener&amp;nbsp; datos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-6-N7aLPI0MseVIE6LQe-3" value="Ingresar:&lt;br&gt;- num1&lt;br&gt;- num2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-6-N7aLPI0MseVIE6LQe-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-6-N7aLPI0MseVIE6LQe-5" target="-6-N7aLPI0MseVIE6LQe-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="330" />
+              <mxPoint x="413" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6-N7aLPI0MseVIE6LQe-5" value="Validar suma" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-6-N7aLPI0MseVIE6LQe-6" value="Result =&lt;br&gt;Si suma &amp;gt; 0 = Positiva&lt;br&gt;Si suma &amp;lt; 0 = Negativa&lt;br&gt;Si suma = 0 (igual a 0)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="313" y="350" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-6-N7aLPI0MseVIE6LQe-7" value="Suma = num1 + num2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-6-N7aLPI0MseVIE6LQe-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-6-N7aLPI0MseVIE6LQe-11" target="-6-N7aLPI0MseVIE6LQe-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-6-N7aLPI0MseVIE6LQe-11" value="Imprimir resultado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="564" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-6-N7aLPI0MseVIE6LQe-12" value="Mostrar result" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="564" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-6-N7aLPI0MseVIE6LQe-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-6-N7aLPI0MseVIE6LQe-14" target="-6-N7aLPI0MseVIE6LQe-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-6-N7aLPI0MseVIE6LQe-14" value="Calcular suma" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="a_MJe5jkBMnpV3pqaX45" name="Página-2">
+    <mxGraphModel dx="880" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EvCfJO1aq9yoNqSRm4y4-1" value="Cuadrado de dos numeros" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvCfJO1aq9yoNqSRm4y4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EvCfJO1aq9yoNqSRm4y4-2" target="EvCfJO1aq9yoNqSRm4y4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvCfJO1aq9yoNqSRm4y4-2" value="Ingresar datos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvCfJO1aq9yoNqSRm4y4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EvCfJO1aq9yoNqSRm4y4-3" target="EvCfJO1aq9yoNqSRm4y4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvCfJO1aq9yoNqSRm4y4-3" value="Calcular cuadrados" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvCfJO1aq9yoNqSRm4y4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvCfJO1aq9yoNqSRm4y4-4" target="EvCfJO1aq9yoNqSRm4y4-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvCfJO1aq9yoNqSRm4y4-4" value="Inprimir resultados" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvCfJO1aq9yoNqSRm4y4-5" value="Ingresar:&lt;br&gt;- num1&lt;br&gt;- num2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvCfJO1aq9yoNqSRm4y4-7" value="cuadrado1 = num1 * num1&lt;sup&gt;&lt;br&gt;&lt;/sup&gt;cuadrado2 = num2 * num2&lt;sup&gt;&lt;br&gt;&lt;/sup&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="290" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvCfJO1aq9yoNqSRm4y4-9" value="Mostrar:&lt;br&gt;- Cuadrado1&lt;br&gt;- Cuadrado2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ObJLoo8evZBm0onsy7xX" name="Página-3">
+    <mxGraphModel dx="880" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tmV1aQDd7VAfZTQyQVCD-1" value="Numero mayor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tmV1aQDd7VAfZTQyQVCD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tmV1aQDd7VAfZTQyQVCD-2" target="tmV1aQDd7VAfZTQyQVCD-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tmV1aQDd7VAfZTQyQVCD-2" value="Ingresar numeros" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tmV1aQDd7VAfZTQyQVCD-3" value="Calcular el numero mayor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tmV1aQDd7VAfZTQyQVCD-4" value="Imprimir numero mayor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tmV1aQDd7VAfZTQyQVCD-5" value="Ingresar:&lt;br&gt;num1&lt;br&gt;num2&lt;br&gt;num3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="310" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tmV1aQDd7VAfZTQyQVCD-6" value="numMayor =&lt;br&gt;Si num1 &amp;gt; num2 y num3 = num1&lt;br&gt;Si" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="325" width="196" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
