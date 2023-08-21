@@ -22,7 +22,7 @@ function displayFooter() {
         <button onclick="borrarCompletados()" id="clear-completed" class="clear-completed">Borrar completados</button>
       </footer>
     `
-  document.querySelector('.footer').innerHTML = page
+  document.querySelector('.footer').innerHTML = page;
 }
 
 // Codigo DOM #1
@@ -57,4 +57,5 @@ function displayFooter() {
 
 //Recordar llamar las funciones displayItems() y displayFooter() para mostrar
 //las tareas en pantalla
-displayFooter()
+displayItems();
+displayFooter();
