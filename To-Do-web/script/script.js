@@ -1,33 +1,61 @@
 /*TIPS: *No olvides utilizar el almacenamiento local (localStorage)
  para que las tareas queden guardadas en caso
  de que la aplicación se cierre.*/
+let nuevaTarea = document.querySelector('.new-todo');
+const itemsArray = localStorage.getItem('items')
+  ? JSON.parse(localStorage.getItem('items'))
+  : [];
+
+function displayFooter() {
+  let page = `      
+     
+      <footer class="footer">
+       
+        <span class="todo-count"><strong>${/*countPend()*/ 1}</strong> pendiente(s)</span>
+        
+        <ul class="filters">
+          <li>
+            <a onclick="showAll() "class="selected filtro" href="#/">Todos</a>
+          </li>
+          <li>
+            <a onclick="showPend()" class="filtro" href="#/active">Pendientes</a>
+          </li>
+          <li>
+            <a onclick="showComp()" class="filtro" href="#/completed">Completados</a>
+          </li>
+        </ul>
+        <button onclick="borrarCompletados()" id="clear-completed" class="clear-completed">Borrar completados</button>
+      </footer>
+    `
+  document.querySelector('.footer').innerHTML = page
+}
 
 // Codigo DOM #1
-document.querySelector('.new-todo').addEventListener('keyup', (event) => {
+nuevaTarea.addEventListener('keyup', (event) => {
   if (
     event.keyCode === 13 &&
     document.querySelector('.new-todo').value.length > 0
   ) {
     const item = document.querySelector('.new-todo')
     //Llamar la función que crea la tarea.**
+    crearTarea(item);
   }
-})
+});
 
 // Codigo DOM #2
-// Permite que la acción eliminar impacte el DOM del HTML, acá debes agegar algoritmo de eliminar tarea
-
-function activateDeleteListeners() {
-  let deleteBtn = document.querySelectorAll('.deleteBtn')
-  deleteBtn.forEach((db, i) => {
-    db.addEventListener('click', () => {
-      //Llamar la función que elimina la tarea
+// este fragmento permite conservar el estado del checkbox (true o false) en el localStorage
+function activateCheckboxListeners() {
+  const checkboxes = document.querySelectorAll('.toggle')
+  checkboxes.forEach((ch, i) => {
+    ch.addEventListener('click', () => {
+      itemsArray[i].checked = ch.checked
+      localStorage.setItem('items', JSON.stringify(itemsArray))
     })
   })
 }
 
 // Codigo DOM #3
 // Permite que la acción eliminar impacte el DOM del HTML, acá debes agegar algoritmo de eliminar tarea
-
 function activateDeleteListeners() {
   let deleteBtn = document.querySelectorAll('.deleteBtn')
   deleteBtn.forEach((db, i) => {
@@ -38,8 +66,10 @@ function activateDeleteListeners() {
 }
 
 // Codigo DOM #4
-// Permite que la acción editar de las 2 listas desplegables "prioridad" y "categoría" impacte el DOM del HTML cuando cambies de opción, inserta este código tal cual, el reto está en saber en qué parte de tu código debes usarlo.
-
+/* 
+Permite que la acción editar de las 2 listas desplegables "prioridad" y "categoría" 
+impacte el DOM del HTML cuando cambies de opción
+*/
 function activateEditListeners() {
   const editBtn = document.querySelectorAll('.editBtn')
   const updateController = document.querySelectorAll('.update-controller')
@@ -75,8 +105,10 @@ function activateEditListeners() {
 }
 
 // Codigo DOM #5
-// Permite que la acción guardar el nuevo nombre de la tarea cuando decides editar y que impacte el DOM del HTML, acá debes agegar algoritmo de actualizar tarea
-
+/* 
+Permite que la acción guardar el nuevo nombre de la tarea cuando decides editar y 
+que impacte el DOM del HTML, acá debes agegar algoritmo de actualizar tarea
+*/
 function activateSaveListeners() {
   const saveBtn = document.querySelectorAll('.saveBtn')
   const inputs = document.querySelectorAll('.input-controller textarea')
@@ -88,8 +120,7 @@ function activateSaveListeners() {
 }
 
 // Codigo DOM #6
-// Esta es la lógica para el botón "cancelar" cuando presionas editar una tarea, inserta este código tal cual, el reto está en saber en qué parte de tu código debes usarlo.
-
+//Esta es la lógica para el botón "cancelar" cuando presionas editar una tarea, inserta este código tal cual
 function activateCancelListeners() {
   const cancelBtn = document.querySelectorAll('.cancelBtn')
   const updateController = document.querySelectorAll('.update-controller')
@@ -123,3 +154,5 @@ function activateCancelListeners() {
 
 //Recordar llamar las funciones displayItems() y displayFooter() para mostrar
 //las tareas en pantalla
+displayFooter();
+displayItems();

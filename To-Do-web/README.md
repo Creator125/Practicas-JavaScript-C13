@@ -1,3 +1,7 @@
+## [DEMO](https://juanchos2905.github.io/)
+
+![image](https://user-images.githubusercontent.com/64823934/184569395-6c5c1217-11e3-4ddf-8502-fd07d6deb405.png)
+
 ## ¿Qué es el DOM?
 
 El DOM (Documento Objeto Modelo, en inglés Document Object Model) es la forma en
@@ -47,17 +51,17 @@ coincidencias en el DOM.
 
 ## Manejo del DOM para este proyecto:
 
-1. para modificar el tag HTML ```<input>``` que será dónde crearas las tareas al
+1. para modificar el tag HTML `<input>` que será dónde crearas las tareas al
    presionar enter usa:
 
 1.1 `document.querySelector('.new-todo')`
 
-2. para modificar el tag HTML ```<ul>``` que será donde visualizaras todas las tareas
+2. para modificar el tag HTML `<ul>` que será donde visualizaras todas las tareas
    usa:
 
 2.1 `document.querySelector('.todo-list')`
 
-3. para modificar el tag HTML ```<section>``` que será donde visualizaras las
+3. para modificar el tag HTML `<section>` que será donde visualizaras las
    categorías (Pendiente, completado o todas) usa:
 
 3.1 `document.querySelector('.footer')`
@@ -67,8 +71,8 @@ coincidencias en el DOM.
 
 4.1 `document.querySelectorAll('.toggle')`
 
-5. para modificar el tag HTML `<i>` que será donde al dar clic podrás eliminar
-   una tarea usa:
+5. para modificar el tag HTML `<i>` que será donde al dar clic podrás eliminar una
+   tarea usa:
 
 5.1 `document.querySelectorAll('.deleteBtn')`
 
@@ -106,15 +110,15 @@ coincidencias en el DOM.
 
 11.1 `document.querySelectorAll('.saveBtn')`
 
-12. para modificar el tag HTML `<button>` que será un botón que al darle clic
+12. para modificar el tag HTML <button> que será un botón que al darle clic
     cancela un cambio de nombre de alguna tarea, para ello usa:
 
 12.1 `document.querySelectorAll('.cancelBtn')`
 
 ## Código del DOM
 
-A continuación, podrás encontrar el código del DOM que sugerimos incluyas/uses en
-el archivo script.js (./script/script.js)
+A continuación, podrás encontrar el código del DOM que sugerimos incluyas/uses
+en el archivo script.js (./script/script.js)
 
 _Código DOM #1_
 
