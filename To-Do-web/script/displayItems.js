@@ -10,7 +10,7 @@ function displayItems() {
                       <input class="toggle" type="checkbox" id="check_${i}" ${
       itemsArray[i].checked ? 'checked' : ''
     } />
-                      <textarea disabled>${itemsArray[i].titulo}</textarea>
+                      <textarea disabled>${itemsArray[i].thing}</textarea>
                       <div class="edit-controller">
                         <div>
                           Prioridad
@@ -53,7 +53,7 @@ function displayItems() {
                             </select>
                         </div>
                         <i class="fa-solid fa-pen-to-square editBtn"></i>
-                        <i class="fa-solid fa-x deleteBtn"></i>
+                        <img src="icons/x.svg" class="deleteBtn">
                       </div>
                     </div>
                     <div class="update-controller">
