@@ -1,11 +1,14 @@
 /*TIPS: *No olvides utilizar el almacenamiento local (localStorage)
  para que las tareas queden guardadas en caso
  de que la aplicación se cierre.*/
+<<<<<<< HEAD
 const nuevaTarea = document.querySelector('.new-todo');
 const itemsArray = localStorage.getItem('items')
   ? JSON.parse(localStorage.getItem('items'))
   : [];
 
+=======
+>>>>>>> 6bfcadf412fa9f854d9b17dffa18ef8263263c99
 function displayFooter() {
   let page = `      
      
@@ -18,16 +21,27 @@ function displayFooter() {
             <a onclick="showAll() "class="selected filtro" href="#/">Todos</a>
           </li>
           <li>
+<<<<<<< HEAD
             <a onclick="showPend()" class="filtro btnPend" href="#/active">Pendientes</a>
           </li>
           <li>
             <a onclick="showComp()" class="filtro btnComp" href="#/completed">Completados</a>
+=======
+            <a onclick="showPend()" class="filtro" href="#/active">Pendientes</a>
+          </li>
+          <li>
+            <a onclick="showComp()" class="filtro" href="#/completed">Completados</a>
+>>>>>>> 6bfcadf412fa9f854d9b17dffa18ef8263263c99
           </li>
         </ul>
         <button onclick="borrarCompletados()" id="clear-completed" class="clear-completed">Borrar completados</button>
       </footer>
     `
+<<<<<<< HEAD
   document.querySelector('.footer').innerHTML = page
+=======
+  document.querySelector('.footer').innerHTML = page;
+>>>>>>> 6bfcadf412fa9f854d9b17dffa18ef8263263c99
 }
 
 // Codigo DOM #1
@@ -173,5 +187,10 @@ function activateCancelListeners() {
 
 //Recordar llamar las funciones displayItems() y displayFooter() para mostrar
 //las tareas en pantalla
+<<<<<<< HEAD
 displayFooter();
 displayItems();
+=======
+displayItems();
+displayFooter();
+>>>>>>> 6bfcadf412fa9f854d9b17dffa18ef8263263c99
