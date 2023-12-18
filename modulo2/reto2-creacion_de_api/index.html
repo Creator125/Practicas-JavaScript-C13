@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Clima</title>
+    </head>
+
+    <body>
+        <form action="/weather" method="post">
+            <input type="text" name="city" placeholder="Ingrese el nombre de la ciudad" id="city">
+            <input type="submit" value="Consultar" onclick="fetchCity()" >
+        </form>
+
+        <script src="index.js"></script>
+    </body>
+</html>
