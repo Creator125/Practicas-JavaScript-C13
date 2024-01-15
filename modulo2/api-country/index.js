@@ -7,7 +7,7 @@ const {saveCountry, viewCountry, editCountry, deleteCountry} = require("./contro
 
 
 const app = express();
-const port = 3001;
+const port = 3002;
 
 app.use(morgan("dev"));//Utilizando morgan
 app.use(express.json())

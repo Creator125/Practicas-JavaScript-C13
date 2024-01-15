@@ -1,9 +1,11 @@
+//Se crear la clase Database
 export class Database {
   private static instance: Database;
   private constructor() {
     console.log("Initialize database");
   }
 
+  //se crea una instancia de Database (si no existe) y se imprime "Initialize database"
   static getInstanceDatabase(): Database {
     if (!Database.instance) {
       Database.instance = new Database();
@@ -11,6 +13,7 @@ export class Database {
     return Database.instance;
   }
 
+  
   private connection(): Promise<string> {
     return new Promise((resolve, reject) => {
       const timeExecution = Math.round(Math.random() * 4 + 1) * 1000;

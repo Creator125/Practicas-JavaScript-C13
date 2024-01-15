@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const morgan = require("morgan");
+const cors = require("cors");
 
 //Controladores
 const {guardarUsuario, mostrarUsuarios, editarUsuario, eliminarUsuario} = require("./controllers/User.controller.js");
@@ -10,7 +11,8 @@ const app = express();
 const port = 3001;
 
 app.use(morgan("dev"));//Utilizando morgan
-app.use(express.json())
+app.use(cors());
+app.use(express.json());
 
 
 async function BDconnection() {
