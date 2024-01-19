@@ -1,0 +1,38 @@
+#usuarios{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.borrar{
+    border: none;
+    padding: 8px 16px;
+    background-color: #d60000;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.editar{
+    border: none;
+    padding: 8px 16px;
+    background-color: #0020d6;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+form{
+    margin-bottom: 1em;
+}
+
+.usuario{
+    padding: 12px 5px;
+    margin-right: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 8px 10px rgba(0, 0, 0, 0.318);
+    border: 1px solid gray;
+}
