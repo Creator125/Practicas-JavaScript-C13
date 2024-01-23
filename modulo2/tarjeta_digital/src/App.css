@@ -1,0 +1,27 @@
+body{
+  height: 100vh;
+  background: linear-gradient(#ffcc3f, #8bffbf) no-repeat;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.card{
+  width: 400px;
+  background-color: #2b2b2b;
+  color: #ffff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top:50%;
+  left: 50%;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.card .info{
+  padding: 15px;
+}
