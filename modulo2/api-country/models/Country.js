@@ -30,6 +30,16 @@ const Country = new mongoose.Schema({
         type: String,
         required: true,
         trim: true
+    },
+    flag:{
+        type: String,
+        required: true,
+        trim: true
+    },
+    images:{
+        type: String,
+        required: true,
+        trim: true
     }
 });
 

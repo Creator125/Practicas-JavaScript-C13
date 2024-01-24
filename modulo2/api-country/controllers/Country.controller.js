@@ -9,7 +9,9 @@ async function saveCountry(req, res){
                 continent: data.continent,
                 capital: data.capital,
                 language: data.language,
-                currency: data.currency
+                currency: data.currency,
+                flag: data.flag,
+                images: data.images
             });
 
         await newCountry.save();
