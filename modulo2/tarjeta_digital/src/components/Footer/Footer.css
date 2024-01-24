@@ -1,0 +1,13 @@
+footer{
+    text-align: center;
+}
+
+footer div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer div svg{
+    margin: 0 9px;
+}
