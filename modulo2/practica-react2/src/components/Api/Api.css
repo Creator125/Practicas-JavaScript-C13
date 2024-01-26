@@ -1,0 +1,18 @@
+.Api {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  
+  button:hover {
+    background-color: #00b368;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
