@@ -37,7 +37,7 @@ const Country = new mongoose.Schema({
         trim: true
     },
     images:{
-        type: String,
+        type: [String],
         required: true,
         trim: true
     }
