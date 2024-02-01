@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.containe{
+    width: 100vw;
+    height: 100vh;
+}
+
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-color: #aefaff;
+    width: 100vw;
+    height: 15vh;
+}
+
+main{
+    background-color: #dbddff;
+    width: 100vw;
+    height: 70vh;
+}
+
+footer{
+    background-color: #2ef1ff;
+    width: 100vw;
+    height: 15vh;
+}
