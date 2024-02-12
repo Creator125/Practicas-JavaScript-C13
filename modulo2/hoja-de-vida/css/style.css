@@ -1,5 +1,6 @@
 
 :root{
+    --main-color: #b8eff1;
     --primary-color: #fff27a;
     --secondary-color: #af8000;
 }
@@ -10,10 +11,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color: var(--main-color);
+}
+
 /* Sesión del aside */
 .container{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+
 }
 
 .title{
@@ -154,7 +161,6 @@
 /* Contenido central */
 .main-content{
     width: 70%;
-    background-color: cadetblue;
 }
 
 .main-content {
@@ -167,6 +173,8 @@
 .main-content .banner{
     width: 95%;
     height: 400px;
+    background-color: #fff;
+    padding: 0 0.9em;
     display: flex;
     margin-top: 10px;
     flex-direction: row;
@@ -213,18 +221,24 @@
 }
 
     /* Sesión de Knowledge */
-.main-content .knowledge{
+.main-content .knowledge,
+.main-content .education,
+.main-content .porfolio{
     margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.knowledge > .title{
+.knowledge > .title,
+.education > .title,
+.porfolio > .title{
     font-size: 2em;
 }
 
-.knowledge > p{
+.knowledge > p,
+.education > p,
+.porfolio > p{
     width: 50%;
     margin-top: 1em;
 }
@@ -256,3 +270,117 @@
     color: var(--secondary-color);
 }
 
+    /* Sesión de Education */
+.main-content .education .cards,
+.main-content .porfolio .cards{
+    padding: 15px;
+    margin-top: 3em;
+    width: 95%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.education .cards .card{
+    display: flex;
+    margin: 10px 0;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.education .cards .card .course{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.education .cards .card .course section{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.60em;
+    align-items: center;
+}
+
+.education .cards .card .course section .date{
+    background-color: var(--primary-color);
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.education .cards .card .description{
+    width: 70%;
+}
+
+
+    /* sesión de porfolio */
+.main-content .porfolio .cards{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+
+}
+
+.main-content .porfolio .cards .card{
+    width: 30%;
+    margin: 0 9px;
+    background-color: #fff;
+}
+
+.main-content .porfolio .cards .card .image{
+    width: 100%;
+    height: 150px;
+    background: url(../images/Love2d.jpg) center no-repeat;
+    background-size: cover;
+    margin: 2em 0;
+}
+
+.main-content .porfolio .cards .card .info{
+    padding: 1em;
+}
+
+.main-content .porfolio .cards .card a{
+    color: var(--secondary-color);
+    margin-top: 2em;
+}
+
+    /* Pie de pagina */
+footer{
+    padding: 1em;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* aside */
+aside{
+    width: 5%;
+    background: #fff;
+    padding-top: 0.80em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside .social-network{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+aside .social-network .red{
+    margin: 0.60em 0;
+    width: 40px;
+    height: 40px;
+    font-size: 1.50em;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
